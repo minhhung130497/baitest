@@ -1,0 +1,31 @@
+#todo{
+    width: 44%;
+}
+.form-content{
+    display: flex;
+}
+#divList{
+    width: 50%;
+}
+#btnAdd{
+    margin-left: 5px;
+}
+.custom-control-label{
+    font-size: 20px;
+    color: red;
+}
+#ul{
+    background-color: rgba(255, 255, 0, 0.507);
+    width: 100%;
+    border: solid 1px;
+    border-radius: 10px;
+}
+ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+
