@@ -1,6 +1,78 @@
-.red{
-  color : red;
+body{
+  background: linear-gradient(45deg,#00FFCC	,	
+  #FFFF66);
+  background-repeat: no-repeat;
+  align-content: center;
+  
+  height: 830px;
 }
-.dark{
-  color : darkred
+.icon{
+  font-size: 25px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.452);
+}
+h1{
+  padding: 10px;
+  color: rgba(255, 0, 0, 0.568);
+  width: 50%;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+button{
+  font-size: 22px;
+  background-color: #FFFF66;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  width: auto;
+
+}
+input {
+  border:  solid 1px 	#FFFF66;
+  font-size: 20px;
+  background-color:#FFCCCC;
+  width: 50%;
+  padding: 6px;
+}
+input:focus-visible {
+  outline: none
+}
+.App{
+  align-items: center;
+}
+.todo-w{
+  text-align: center;
+  background-color: 	#FFCCCC;
+  width: 40%;
+  margin: 100px auto;
+  padding: 5px;
+  border-radius: 7px;
+}
+.todo-form{
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.list-icon{
+  display: flex;
+  align-items: center;
+  
+}
+p{
+  cursor: pointer;
+  font-size: 30px;
+  width: 75%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.todo-list{
+  display: flex;
+  width: 90%;
+  margin-bottom: 5px;
+  margin: 10px auto;
+  word-wrap: break-word;
+  justify-content: space-between;
+  background-color: #FFFF66;
+  border-radius: 5px;
 }
